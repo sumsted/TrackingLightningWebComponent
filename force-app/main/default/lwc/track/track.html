@@ -1,7 +1,7 @@
 <template>
     <lightning-card title="Tracking" icon-name="custom:custom14">
         <div class="slds-m-around_medium">
-            <lightning-input label="Tracking Number" value="" onchange={changeHandler}></lightning-input>
+            <lightning-input label="Tracking Number" value={trackingNumber} onchange={changeHandler}></lightning-input>
             <lightning-button title="Track Package" label="Track Now!" variant="brand" onclick={inquireTrack}>
             </lightning-button>
             <lightning-formatted-text value={receivedMessage}></lightning-formatted-text>

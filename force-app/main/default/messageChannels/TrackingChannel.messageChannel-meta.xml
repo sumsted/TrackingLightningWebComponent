@@ -3,4 +3,8 @@
     <masterLabel>trackingChannel</masterLabel>
     <isExposed>true</isExposed>
     <description>The trackingChannel is used to pass tracking numbers to track lwc.</description>
+    <lightningMessageFields>
+        <fieldName>trackingNumber</fieldName>
+        <description>Package tracking number</description>
+    </lightningMessageFields>
 </LightningMessageChannel>
